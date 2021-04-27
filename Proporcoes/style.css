@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(85, 85, 85);
+}
+header{
+    background: rgb(48, 177, 182);
+    border-radius: 15pt;
+    color: white;
+    text-align: center;
+    font: 18pt Fantasy;
+}
+section{
+    text-align: center;
+    font: 15pt Verdana;
+    color: white;
+}
+section input{
+    border-radius: 12pt;
+}
+section select{
+    border-radius: 15pt;
+    width: 70px;
+    height: 35px;
+    font: 10pt Verdana;
+}
+footer{
+    font-style: italic;
+    color: aqua;
+}
+#result{
+    text-align: center;
+    font: 15pt Verdana;
+    color: white;
+}
+
+#result div{
+    text-align: center;
+}
+
+#imagem {
+    text-align: center;
+    display: flex;
+    text-align: center;
+    
+}
+
+#imagem img{
+    margin-left: 500px;
+}

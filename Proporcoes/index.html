@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proporções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><strong>Redimensionamento de imagem</strong></h1>
+    </header>
+    <section>
+        <p>Esse algoritmo foi criado com objetivo de ajudar no calculo de 
+            proporções para redimensionar imagens
+        </p>
+        <p>Digite a altura:
+            <input type="number" id="altura_1" name="alt1">
+        </p>
+        <p>Digite a largura:
+            <input type="number" id="largura_1" name="larg2">
+        </p>
+        <p>Qual é o lado que você dispõe para redimensionar?</p>
+        <select name="lado_escolhido" id="lado_escolhido">
+            <option >Altura</option>
+            <option>Largura</option>
+        </select>
+        <br>
+        <p>Digite a medida:<input type="number" id="novo_valor" name="Novo_valor"></p>
+        <br>
+        <input type="button" value="Calcular" onclick="calcular()">
+    </section>
+    <div id="result">
+    </div>
+    <footer>
+        <p>&copy;Made by Beyond_Birthd4y</p>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
